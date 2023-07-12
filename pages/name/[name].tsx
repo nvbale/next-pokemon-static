@@ -55,9 +55,7 @@ const PokemonByNamePage: NextPage<Props> = ({ pokemon }) => {
         </Grid>
         <Grid xs={12} sm={8}>
           <Card>
-            <Card.Header
-            // css={{ display: 'flex', justifyContent: 'space-between' }}
-            >
+            <Card.Header>
               <Container
                 justify="space-between"
                 direction="row"

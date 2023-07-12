@@ -17,7 +17,14 @@ export const Navbar = () => {
         backgroundColor: theme?.colors.gray50.value,
       }}
     >
-      <Link href="/" style={{ display: 'flex' }}>
+      <Link
+        href="/"
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
         <Image
           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
           alt="icono de la app"
